@@ -7,31 +7,8 @@ namespace Partie4Exercice5TABEmb
         static void Main(string[] args)
         {
             string[,] tab= new string[,] { { "one", "two" }, { "three", "four" },
-                                        { "five", "six" } };
-            // System.Console.Write(fujita[0, 0]+";");
-            // System.Console.Write(fujita[0,1]);
-            // Console.WriteLine();
-
-
-            /*  for (int i = 0; i <3; i++) {
-
-                  for (int j = i; j <i; j++) {
-
-
-
-        Console.Write(fujita[i, j] + ";" );
-                    Console.Write(fujita[i, j]  );
-
-
-                    Console.WriteLine();
-
-
-
-
-                }
-              }
-
-           */
+                                        { "five", "six" }, { "five", "six" } };
+  
 
             for (int i = 0; i < 3; i++)
             {
